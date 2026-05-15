@@ -1,4 +1,4 @@
-<img width="1043" height="688" alt="image" src="https://github.com/user-attachments/assets/1b260360-b154-4e67-a71a-9ab8a57ae3bd" /># PCB Albatastic micro v1.0
+
 PCB ultra compacta para un NRF52 y E22/E22P. Con resistencias para medir el voltaje, pads para el I2C y un TLV840
 
 Los gerbers están en beta testing
