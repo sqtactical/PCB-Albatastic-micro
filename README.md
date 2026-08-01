@@ -7,6 +7,38 @@ A diferencia de sus hermanas mayores, la Micro prescinde de todo lo innecesario 
 
 ---
 
+## 🛠️ Método de Montaje Paso a Paso (V1.0)
+
+1. **Módulos SMD**
+   * Suelda el **E22/E22P**
+   * *Método:* Puedes usar soldador de mano, placa caliente (*hot plate*) o estación de aire caliente.
+   * ⚠️ **Ojo:** Presta mucha atención a la orientación y posicionamiento del E22/E22P antes de aplicar calor.
+
+2. **Selector de Radio**
+   * Suelda el jumper selector del E22/E22P correspondiente según tu placa. Un punto rápido de estaño con el soldador es suficiente.
+
+3. **Preparación de Espadines (Truco de alineación)**
+   * Corta 1 espadín de la tira larga y alinéalo con los agujeros (notarás que el primer agujero es más pequeño y entrará ajustado).
+   * Coloca la otra tira de 3 espadines en los agujeros opuestos, asegurándote de que el **lado largo** de los espadines quede introducido en la PCB.
+   * Presenta el Pro Micro encima para alinear todo y **solo suelda los espadines a la PCB de Albatastic, NO al Pro Micro**.
+   * Retira el Pro Micro temporalmente y quita los separadores de plástico negros de los espadines.
+
+4. **Soldadura del Pro Micro**
+   * Empuja el Pro Micro hacia abajo (al ras de la placa) y suéldalo de forma definitiva. Corta los sobrantes de los pines al acabar. Suelda también las resistencias y el TLV (opcional)
+
+5. **Alimentación y Monitoreo**
+   * **Opciones de alimentación:** Admite voltaje directo de batería (el E22 no emitirá a 1W pleno) o 5V regulados. Ambos positivos van al pad marcado como **5V**, y la masa a **GND**.
+   * **Monitoreo (BAT):** Para medir el voltaje, conecta el positivo de la batería al pad **BAT**. Si alimentas todo directamente con el voltaje de la batería, suelda el pequeño jumper integrado diseñado para este propósito.
+
+6. **Conexión de Antena**
+   > [!WARNING]
+   > **¡MUY IMPORTANTE!** Conecta siempre la antena antes de energizar o encender el nodo. Transmitir sin antena dañará de forma irreversible el módulo de radio E22/E22P.
+
+7. **Verificación**
+   * Enciende el nodo y verifica el correcto funcionamiento del firmware.
+  
+---
+
 ## 🛠️ Características Principales
 
 *   **Miniaturización Extrema:** Huella ultra-reducida diseñada para encajar en cajas minúsculas impresas en 3D.
